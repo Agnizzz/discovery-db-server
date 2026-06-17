@@ -1,88 +1,10 @@
 {
-  "tutors": [
-    {
-      "id": 1,
-      "userId": 1,
-      "name": "Miguel Santos Medina",
-      "university": "PUCP",
-      "career": "Ing. Software",
-      "bio": "Estudiante de 8vo ciclo en la PUCP. Especialista en cálculo, álgebra lineal y POO. Enfoque de enseñanza visual y práctico.",
-      "skills": ["Cálculo I", "Cálculo II", "Álgebra Lineal", "Python", "Java"],
-      "rating": 4.9,
-      "reviewCount": 18,
-      "verified": true,
-      "online": true,
-      "avatarUrl": "https://ui-avatars.com/api/?name=Miguel+Santos"
-    },
-    {
-      "id": 2,
-      "userId": 2,
-      "name": "Adrian Guevara Romero",
-      "university": "Ulima",
-      "career": "Ing. Sistemas",
-      "bio": "6to ciclo en Ulima. Experto en desarrollo web y bases de datos. Tutorías en React, SQL y estructuras de datos.",
-      "skills": ["React", "SQL", "Estructuras de Datos", "JavaScript", "Node.js"],
-      "rating": 4.7,
-      "reviewCount": 12,
-      "verified": true,
-      "online": true,
-      "avatarUrl": "https://ui-avatars.com/api/?name=Adrian+Guevara"
-    },
-    {
-      "id": 3,
-      "userId": 3,
-      "name": "Lucía Fernández Torres",
-      "university": "UPC",
-      "career": "Ing. Industrial",
-      "bio": "7mo ciclo en la UPC. Especialista en estadística e investigación de operaciones, desde conceptos básicos a optimización.",
-      "skills": ["Estadística", "Investigación de Operaciones", "Excel Avanzado", "Probabilidad"],
-      "rating": 4.5,
-      "reviewCount": 8,
-      "verified": true,
-      "online": false,
-      "avatarUrl": "https://ui-avatars.com/api/?name=Lucia+Fernandez"
-    },
-    {
-      "id": 4,
-      "userId": 4,
-      "name": "Carlos Paredes Quispe",
-      "university": "UNMSM",
-      "career": "Ing. Electrónica",
-      "bio": "9no ciclo en UNMSM. Especialista en física, circuitos eléctricos y C++. Experiencia como monitor académico.",
-      "skills": ["Física I", "Física II", "Circuitos Eléctricos", "C++", "Arduino"],
-      "rating": 4.8,
-      "reviewCount": 22,
-      "verified": true,
-      "online": false,
-      "avatarUrl": "https://ui-avatars.com/api/?name=Carlos+Paredes"
-    },
-    {
-      "id": 5,
-      "userId": 5,
-      "name": "Valeria Morales Díaz",
-      "university": "UPC",
-      "career": "Administración de Empresas",
-      "bio": "5to ciclo en UPC. Experta en contabilidad, finanzas y marketing digital. Ayuda con estados financieros y mercado.",
-      "skills": ["Contabilidad", "Finanzas", "Marketing Digital", "Excel"],
-      "rating": 4.3,
-      "reviewCount": 5,
-      "verified": true,
-      "online": true,
-      "avatarUrl": "https://ui-avatars.com/api/?name=Valeria+Morales"
-    },
-    {
-      "id": 6,
-      "userId": 6,
-      "name": "Rodrigo Huamán Solis",
-      "university": "PUCP",
-      "career": "Derecho",
-      "bio": "8vo ciclo de Derecho en la PUCP. Apoyo en introducción al derecho, derecho civil y redacción jurídica.",
-      "skills": ["Derecho Civil", "Derecho Romano", "Introducción al Derecho", "Redacción Jurídica"],
-      "rating": 0,
-      "reviewCount": 0,
-      "verified": false,
-      "online": false,
-      "avatarUrl": "https://ui-avatars.com/api/?name=Rodrigo+Huaman"
-    }
+ "tutors": [
+    { "id": 1, "userId": 1, "name": "Miguel Santos Medina",   "university": "PUCP",  "career": "Ing. Software",              "bio": "Estudiante de 8vo ciclo en la PUCP. Me especializo en cálculo, álgebra lineal y programación orientada a objetos.",          "skills": ["Cálculo I","Cálculo II","Álgebra Lineal","Python","Java"],                              "rating": 4.9, "reviewCount": 18, "verified": true,  "online": true,  "avatarUrl": null, "experienceYears": 2, "mainSubject": "Cálculo"        },
+    { "id": 2, "userId": 2, "name": "Adrian Guevara Romero",  "university": "Ulima", "career": "Ing. Sistemas",              "bio": "6to ciclo en la Universidad de Lima. Apasionado por el desarrollo web y las bases de datos.",                                  "skills": ["React","SQL","Estructuras de Datos","JavaScript","Node.js"],                            "rating": 4.7, "reviewCount": 12, "verified": true,  "online": true,  "avatarUrl": null, "experienceYears": 1, "mainSubject": "Desarrollo Web" },
+    { "id": 3, "userId": 3, "name": "Lucía Fernández Torres", "university": "UPC",   "career": "Ing. Industrial",            "bio": "7mo ciclo en la UPC. Me encanta la estadística y la investigación de operaciones.",                                            "skills": ["Estadística","Investigación de Operaciones","Excel Avanzado","Probabilidad"],           "rating": 4.5, "reviewCount": 8,  "verified": true,  "online": false, "avatarUrl": null, "experienceYears": 2, "mainSubject": "Estadística"    },
+    { "id": 4, "userId": 4, "name": "Carlos Paredes Quispe",  "university": "UNMSM", "career": "Ing. Electrónica",           "bio": "Estudiante de 9no ciclo de la UNMSM. Especialista en física, circuitos eléctricos y programación en C++.",                    "skills": ["Física I","Física II","Circuitos Eléctricos","C++","Arduino"],                          "rating": 4.8, "reviewCount": 22, "verified": true,  "online": false, "avatarUrl": null, "experienceYears": 3, "mainSubject": "Física"         },
+    { "id": 5, "userId": 5, "name": "Valeria Morales Díaz",   "university": "UPC",   "career": "Administración de Empresas", "bio": "5to ciclo en UPC. Me especializo en contabilidad, finanzas y marketing digital.",                                              "skills": ["Contabilidad","Finanzas","Marketing Digital","Excel"],                                  "rating": 4.3, "reviewCount": 5,  "verified": true,  "online": true,  "avatarUrl": null, "experienceYears": 1, "mainSubject": "Finanzas"        },
+    { "id": 6, "userId": 6, "name": "Rodrigo Huamán Solis",   "university": "PUCP",  "career": "Derecho",                    "bio": "8vo ciclo de Derecho en la PUCP. Puedo ayudar con introducción al derecho, derecho civil y redacción jurídica.",              "skills": ["Derecho Civil","Derecho Romano","Introducción al Derecho","Redacción Jurídica"],        "rating": 0,   "reviewCount": 0,  "verified": false, "online": false, "avatarUrl": null, "experienceYears": 2, "mainSubject": "Derecho Civil"  }
   ]
 }
